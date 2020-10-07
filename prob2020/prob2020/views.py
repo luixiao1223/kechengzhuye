@@ -1,7 +1,5 @@
 from django.shortcuts import render, HttpResponse
 from django.http import FileResponse
-import io
-from reportlab.pdfgen import canvas
 
 def main_page(request):
     return render(request, "main.html")
