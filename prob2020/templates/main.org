@@ -46,6 +46,6 @@ https://www.bilibili.com/video/BV1XE411s7MS
 
 [[./tips01pdf][第一章]] 链接
 
-** [[./ppt01][PPT]] 链接
+** 课程 [[./ppt01][PPT]] 链接
 
 * 第二章
