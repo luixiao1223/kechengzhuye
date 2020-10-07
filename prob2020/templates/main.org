@@ -1,0 +1,51 @@
+#+TITLE: 概率论与数理统计
+#+OPTIONS: toc:nil num:3 H:4 ^:nil pri:t
+* 课前资源
+** 课外教材
+1. Albert N. Shiryaev, R. P. Boas - Probability-Springer (1996)
+2. 概率论与数理统计(茆诗松)
+3. Probability theory the logic of science(概率沉思录)
+
+** 公开课
+1. 慕课mooc
+2. coursera
+3. 网易云课堂
+
+** 考试比例
+
+| 平时成绩 | 随堂测试 | 期末考试 |
+|----------+----------+----------|
+|      10% |      30% |      60% |
+
+* 第一章
+
+** 第一章需要补充排列组合的知识.
+【学姐数学课堂】计数原理是什么？
+https://www.bilibili.com/video/BV1MJ411v7Lj
+
+【学姐数学课堂】清华学姐带你学计数原理与排列组合
+https://www.bilibili.com/video/BV11E411j7pg
+
+【学姐数学课堂】清华学姐带你学排列组合经典问题
+https://www.bilibili.com/video/BV1oE411x7zk
+
+【学姐数学课堂】清华学姐带你学排列组合经典问题下
+https://www.bilibili.com/video/BV1XE411s7MS
+
+** 章节quiz
+
+[[./quiz01pdf][quiz01]] 链接
+
+[[./quiz01anspdf][答案]] 链接
+
+** 作业答案
+
+[[./ans01pdf][课后作业]] 链接
+
+** 章节知识点
+
+[[./tips01pdf][第一章]] 链接
+
+** [[./ppt01][PPT]] 链接
+
+* 第二章
