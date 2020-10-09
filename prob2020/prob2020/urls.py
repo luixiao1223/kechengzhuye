@@ -24,5 +24,6 @@ urlpatterns = [
     path('main/tips01pdf', views.tips01pdf),
     path('main/ans01pdf', views.ans01pdf),
     path('main/ppt01', views.ppt01),
+    path('main/ppt02', views.ppt02),
     path('admin/', admin.site.urls),
 ]

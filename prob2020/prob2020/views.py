@@ -40,3 +40,10 @@ def ppt01(request):
     response['Content-Type'] = 'application/pdf-stream'
 
     return response
+
+def ppt02(request):
+    buffer = open("./templates/ppt02.pptx", "rb")
+    response = FileResponse(buffer, filename="ppt02.pptx", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
