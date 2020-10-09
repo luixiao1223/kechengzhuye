@@ -50,4 +50,4 @@ https://www.bilibili.com/video/BV1XE411s7MS
 
 * 第二章
 
-1. [[./ppt02.pptx][第二章ppt]]
+1. [[./ppt02][第二章ppt]]
