@@ -12,6 +12,22 @@ def quiz01pdf(request):
 
     return response
 
+
+def quiz02(request):
+    buffer = open("./templates/quiz02.pdf", "rb")
+    response = FileResponse(buffer, filename="quiz02.pdf", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
+def test01(request):
+    buffer = open("./templates/test01.pdf", "rb")
+    response = FileResponse(buffer, filename="test01.pdf", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
+
 def quiz01anspdf(request):
     buffer = open("./templates/quiz01ans.pdf", "rb")
     response = FileResponse(buffer, filename="quiz01ans.pdf", as_attachment=True)
@@ -44,6 +60,13 @@ def ppt01(request):
 def ppt02(request):
     buffer = open("./templates/ppt02.pptx", "rb")
     response = FileResponse(buffer, filename="ppt02.pptx", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
+def ppt03(request):
+    buffer = open("./templates/ppt03.pptx", "rb")
+    response = FileResponse(buffer, filename="ppt03.pptx", as_attachment=True)
     response['Content-Type'] = 'application/pdf-stream'
 
     return response

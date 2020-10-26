@@ -20,10 +20,13 @@ from .import views
 urlpatterns = [
     path('main/',views.main_page),
     path('main/quiz01pdf', views.quiz01pdf),
+    path('main/quiz02', views.quiz02),
     path('main/quiz01anspdf', views.quiz01anspdf),
     path('main/tips01pdf', views.tips01pdf),
     path('main/ans01pdf', views.ans01pdf),
     path('main/ppt01', views.ppt01),
     path('main/ppt02', views.ppt02),
+    path('main/ppt03', views.ppt03),
+    path('main/test01', views.test01),
     path('admin/', admin.site.urls),
 ]

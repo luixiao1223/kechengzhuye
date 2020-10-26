@@ -51,3 +51,13 @@ https://www.bilibili.com/video/BV1XE411s7MS
 * 第二章
 
 1. [[./ppt02][第二章ppt]]
+
+2. [[./quiz02][第二章quiz]]
+
+3. [[./test01][第一次随堂测试题]],
+
+* 第三章
+
+1. [[./ppt03][第三章ppt]]
+
+   
