@@ -43,6 +43,14 @@ def tips01pdf(request):
 
     return response
 
+def tips02(request):
+    buffer = open("./templates/tips02.pdf", "rb")
+    response = FileResponse(buffer, filename="tips02.pdf", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
+
 def ans01pdf(request):
     buffer = open("./templates/ans01.pdf", "rb")
     response = FileResponse(buffer, filename="ans01.pdf", as_attachment=True)

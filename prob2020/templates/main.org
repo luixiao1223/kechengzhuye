@@ -56,6 +56,8 @@ https://www.bilibili.com/video/BV1XE411s7MS
 
 3. [[./test01][第一次随堂测试题]],
 
+4. [[./tips02][第二章知识点小结]]
+
 * 第三章
 
 1. [[./ppt03][第三章ppt]]

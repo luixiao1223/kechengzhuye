@@ -23,6 +23,7 @@ urlpatterns = [
     path('main/quiz02', views.quiz02),
     path('main/quiz01anspdf', views.quiz01anspdf),
     path('main/tips01pdf', views.tips01pdf),
+    path('main/tips02', views.tips02),
     path('main/ans01pdf', views.ans01pdf),
     path('main/ppt01', views.ppt01),
     path('main/ppt02', views.ppt02),
