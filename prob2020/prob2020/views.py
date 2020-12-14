@@ -64,6 +64,35 @@ def tips02(request):
 
     return response
 
+def tips03(request):
+    buffer = open("./templates/tips03.pdf", "rb")
+    response = FileResponse(buffer, filename="tips03.pdf", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
+
+def tips04(request):
+    buffer = open("./templates/tips04.pdf", "rb")
+    response = FileResponse(buffer, filename="tips04.pdf", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
+def tips06(request):
+    buffer = open("./templates/tips06.pdf", "rb")
+    response = FileResponse(buffer, filename="tips06.pdf", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
+def tips07(request):
+    buffer = open("./templates/tips07.pdf", "rb")
+    response = FileResponse(buffer, filename="tips07.pdf", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
 
 def ans01pdf(request):
     buffer = open("./templates/ans01.pdf", "rb")
@@ -104,6 +133,27 @@ def ppt03(request):
 def ppt04(request):
     buffer = open("./templates/ppt04.pptx", "rb")
     response = FileResponse(buffer, filename="ppt04.pptx", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
+def ppt06(request):
+    buffer = open("./templates/ppt06.pptx", "rb")
+    response = FileResponse(buffer, filename="ppt06.pptx", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
+def ppt07(request):
+    buffer = open("./templates/ppt07.pptx", "rb")
+    response = FileResponse(buffer, filename="ppt07.pptx", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
+
+def ppt08(request):
+    buffer = open("./templates/ppt08.pptx", "rb")
+    response = FileResponse(buffer, filename="ppt08.pptx", as_attachment=True)
     response['Content-Type'] = 'application/pdf-stream'
 
     return response
