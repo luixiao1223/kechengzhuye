@@ -40,5 +40,6 @@ urlpatterns = [
     path('main/ppt08', views.ppt08),
     path('main/test01', views.test01),
     path('main/test01ans', views.test01ans),
+    path('main/kaoshiti', views.kaoshiti),
     path('admin/', admin.site.urls),
 ]

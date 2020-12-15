@@ -157,3 +157,10 @@ def ppt08(request):
     response['Content-Type'] = 'application/pdf-stream'
 
     return response
+
+def kaoshiti(request):
+    buffer = open("./templates/kaoshiti.pdf", "rb")
+    response = FileResponse(buffer, filename="kaoshiti.pdf", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
