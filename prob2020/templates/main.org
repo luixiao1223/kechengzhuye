@@ -87,7 +87,7 @@ https://www.bilibili.com/video/BV1XE411s7MS
 
 * 模拟测试题
 
-[[./kaoshiti][模拟试卷]
+[[./kaoshiti][模拟试卷]]
 
 * 题库资源
 [[./tiku][下载链接]]
