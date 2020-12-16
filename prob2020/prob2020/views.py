@@ -164,3 +164,10 @@ def kaoshiti(request):
     response['Content-Type'] = 'application/pdf-stream'
 
     return response
+
+def tiku(request):
+    buffer = open("./templates/tiku.pdf", "rb")
+    response = FileResponse(buffer, filename="tiku.pdf", as_attachment=True)
+    response['Content-Type'] = 'application/pdf-stream'
+
+    return response
